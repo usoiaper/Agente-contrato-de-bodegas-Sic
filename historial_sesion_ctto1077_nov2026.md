@@ -173,45 +173,79 @@ Cruce entre el Informe 4 v3 (contratista) y el Informe de Verificación SIC (sup
 
 | N.° | Hallazgo | Referencia AT | Estado |
 |---|---|---|---|
-| 1 | Película UV cafetería B10 — Pendiente | AT 5.1 | Pendiente |
-| 2 | Escalera evacuación en madera (B10-11) | AT 3.5 / 3.14 | Pendiente |
-| 3 | Cableado cat.5 — AT exige cat.6A | AT 5.1 | Pendiente |
-| 4 | RETIE y RETILAP — Certificación solicitada al Parque Empresarial | AT 5.1 | Pendiente |
+| 1 | Película UV cafetería B10 | AT 5.1 | ⚠️ **No se ejecutará** — DI confirma en acta 26/11 |
+| 2 | Escalera evacuación en madera (B10-11) | AT 3.5 / 3.14 | ⚠️ **No se ejecutará** — DI confirma en acta 26/11 |
+| 3 | Cableado cat.5 — AT exige cat.6A | AT 5.1 | ⚠️ **No se ejecutará** — Confirmado incumplimiento |
+| 4 | RETIE y RETILAP — Certificación solicitada al Parque Empresarial | AT 5.1 | 🔄 En gestión con Parque Empresarial |
 
 ### Saneamiento Ambiental (3)
 
 | N.° | Hallazgo | Referencia AT | Estado |
 |---|---|---|---|
-| 5 | Dosificación ANFOCUAT — Tres valores inconsistentes | AT 6.2.6 | Por validar (29/10/2026) |
-| 6 | Carga microbiológica — No medida en octubre 2026 | AT 6.2.6 | Pendiente |
-| 7 | Medición UV (AT 6.2.2) — No documentada en octubre 2026 | AT 6.2.2 / AT 7.2 | Pendiente |
+| 5 | Dosificación ANFOCUAT — Tres valores inconsistentes | AT 6.2.6 | ⏳ Pendiente respuesta escrita DI |
+| 6 | Carga microbiológica — No medida en octubre 2026 | AT 6.2.6 | ✅ **Subsanada** — Informe recibido y presentado (Alexandra Pérez, 26/11) |
+| 7 | Medición UV (AT 6.2.2) — No documentada | AT 6.2.2 / AT 7.2 | ✅ **Aclarado** — DI adjuntará certificado lámparas; tipo no requiere medición UV |
 
 ### Obligaciones Documentales y Certificaciones (5)
 
 | N.° | Hallazgo | Referencia AT | Estado |
 |---|---|---|---|
-| 9 | Certificación estantería — Pendiente desde julio 2026 | AT 3.3.2 / 6.1 | Pendiente |
-| 10 | Conteo de tomas habilitadas — No entregado | AT 5.1 | Pendiente |
-| 11 | Extintores vencidos + Certificados de recarga no adjuntos | AT 6.2.1 | Pendiente |
-| 12 | Sensor bomba extracción B44 — Mal ubicado | AT 6.2.1 | Pendiente |
-| 13 | Sin respuesta al Informe Administrativo Sede Álamos | AT 5.1 | Pendiente |
+| 9 | Certificación estantería — Pendiente desde julio 2026 | AT 3.3.2 / 6.1 | 🔄 Wilfredo Arias incluye en informe 26/11 (con matrícula/COPNIA) |
+| 10 | Conteo de tomas habilitadas — No entregado | AT 5.1 | 🔄 En ejecución desde 9:00 a.m. del 26/11; incluir en informe |
+| 11 | Extintores — Certificados de recarga no adjuntos | AT 6.2.1 | 🔄 Recargados en nov.; certificado a incluir en informe |
+| 12 | Sensor bomba extracción B44 — Mal ubicado | AT 6.2.1 | ⏳ Sin mención en acta 26/11 |
+| 13 | Sin respuesta al Informe Administrativo Sede Álamos | AT 5.1 | 🔄 Incluido en informe eléctrico a entregar 26/11 |
 
 ### En Seguimiento (1)
 
 | N.° | Hallazgo | Referencia AT | Estado |
 |---|---|---|---|
-| 14 | Filtraciones en cubierta — En seguimiento, atendidas al momento | AT 3.5 | En seguimiento |
+| 14 | Filtraciones en cubierta — En seguimiento, atendidas al momento | AT 3.5 | 🔄 En seguimiento — ANS al día |
 
 ---
 
-## 6. PRÓXIMOS PASOS (Compromisos exigibles al contratista)
+## 4.4 Sesión continuada — Acta de Seguimiento Mensual (26/11/2026)
 
-1. Aclarar dosificación ANFOCUAT con soporte del fabricante (AT 6.2.6)
-2. Aclarar si se realizó medición UV e incorporar resultados o informar que no se realizó (AT 6.2.2 · Inf.Ver.Oct ítem 55)
-3. Dar respuesta formal al Informe Administrativo Sede Álamos (AT 5.1)
-4. Entregar certificación técnica de estanterías (pendiente desde 09/07/2026)
-5. Presentar certificados de recarga de los 4 extintores vencidos (IDs 53, 54, 73, 75)
-6. Entregar conteo de tomas habilitadas por bodega y piso
+**Fuentes analizadas:**
+- `3be49323-Seguimiento_mensual_CTTO_1077_del_2026.docx` — Transcripción Word de la reunión (25 192 car.)
+- `bbf0c614-20261019_Acta_Comite_Seguimiento.docx` — Modelo institucional SIC (octubre 2026)
+
+**Reunión analizada:**
+- Duración: 26 min 2 s · Inicio: 9:05 a.m. · Cierre: 9:31 a.m.
+- 8 asistentes (Wilfredo Arias NO asistió, a diferencia de octubre)
+
+**Metodología de generación del acta:**
+Edición directa del XML del .docx: se desempacó el modelo con `zipfile`, se reemplazó `word/document.xml` generando el nuevo XML en Python con estructuras idénticas al modelo (Verdana 11pt, Segoe UI, encabezado D9E2F3 en tablas, bordes 808080). El encabezado (logo SIC) y pie institucional del modelo se conservaron íntegros.
+
+**10 compromisos formalizados en el acta:**
+
+| N.° | Compromiso | Responsable | Fecha |
+|---|---|---|---|
+| 1 | Entregar informe de gestión de octubre con soportes de subsanación | DI | 26/11/2026 |
+| 2 | Incluir conteo de tomas eléctricas por bodega y piso | DI | 26/11/2026 |
+| 3 | Incluir certificación técnica de estanterías (matrícula, diplomas, COPNIA) | DI (Wilfredo Arias) | 26/11/2026 |
+| 4 | Incluir informe eléctrico completo (cableado, sensores, tomas, Inf. Álamos) | DI | 26/11/2026 |
+| 5 | Adjuntar certificados de recarga de extintores | DI | 26/11/2026 |
+| 6 | Adjuntar certificado de lámparas (posición sobre medición UV) | DI | 26/11/2026 |
+| 7 | Gestionar con Parque Empresarial documento RETIE y RETILAP | DI | Por definir |
+| 8 | Comunicar objeto reunión con Directora Administrativa — R.L. | DI (R.L.) | Por definir |
+| 9 | Enviar requerimiento formal de incumplimiento al contratista | SIC – Supervisora (Yolima Acero Montaña) | 26/11/2026 (antes 5 p.m.) |
+| 10 | Validar documentos y proceder con trámite radicación factura octubre | SIC – Supervisión (Gina Abreu) | Al recibir documentos |
+
+---
+
+## 6. ESTADO ACTUALIZADO AL 26/11/2026
+
+**Incumplimientos confirmados (proceso de multa iniciado):**
+- Película UV cafetería B10 — DI informa que no ejecutará
+- Escalera de evacuación en madera (B10-11) — DI informa que no ejecutará
+- Cableado cat.5 en lugar de cat.6A — DI informa que no ejecutará
+
+**Requerimiento formal:** Yolima Acero Montaña anuncia envío antes de las 5 p.m. del 26/11/2026 como inicio del proceso de imposición de multa.
+
+**Radicación factura octubre:** Condicionada a recepción de documentos de subsanación.
+
+**ANS:** Al día. Riesgo materializado octubre (aguaceros) — protocolo cumplido.
 
 ---
 
@@ -227,8 +261,10 @@ Cruce entre el Informe 4 v3 (contratista) y el Informe de Verificación SIC (sup
 |---|---|---|
 | `ctto1077_seguimiento_oct2026_v3.pptx` | Presentación seguimiento octubre 2026 — versión final | ~637 KB |
 | `build_sic_v3.py` | Script Python para generación del .pptx (XML directo) | Scratchpad sesión |
+| `acta_reunion_seguimiento_ctto1077_20261126.docx` | Acta formal Comité de Seguimiento Mensual — 26/11/2026 (formato modelo SIC) | ~172 KB |
+| `gen_acta_nov2026.py` | Script Python para generación del acta (XML directo sobre modelo SIC) | Scratchpad sesión |
 | `historial_sesion_ctto1077_nov2026.md` | Este documento | — |
 
 ---
 
-*Generado por Claude (Cowork) · Sesión `b4e90802-eaee-51ff-8ebf-551884cddf14` · 26 de noviembre de 2026*
+*Actualizado por Claude (Cowork) · Sesión `b4e90802-eaee-51ff-8ebf-551884cddf14` · 26 de noviembre de 2026*
